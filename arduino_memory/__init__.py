@@ -2,8 +2,8 @@ import pkg_resources
 
 
 def get_library_path():
-    return pkg_resources.resource_filename('arduino_memory', 'Arduino',
-                                           'Memory')]
+    return pkg_resources.resource_filename('arduino_memory',
+                                           'Arduino/Memory')
 
 
 def get_includes():
