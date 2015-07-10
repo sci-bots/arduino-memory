@@ -1,0 +1,7 @@
+include RELEASE-VERSION
+include version.py
+include setup.py
+include paver-minilib.zip
+recursive-include arduino_memory *
+recursive-exclude arduino_memory *.pyc
+recursive-exclude arduino_memory *~
