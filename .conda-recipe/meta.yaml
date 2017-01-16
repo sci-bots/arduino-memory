@@ -8,12 +8,12 @@ package:
 {% if GIT_DESCRIBE_NUMBER > '0' %}
   version: {{ GIT_DESCRIBE_TAG[1:] }}.post{{ GIT_DESCRIBE_NUMBER }}
 {% else %}
-  version: {{ GIT_DESCRIBE_TAG[1:] }}
+  version: {{ GIT_DESCRIBE_TAG[1:] }}.0
 {% endif %}
 
 requirements:
   build:
-    - python 2.7* # [not win]
+    - python 2.7*
     - future
     - path_helpers >=0.3
     - paver
