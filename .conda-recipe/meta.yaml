@@ -20,5 +20,5 @@ requirements:
     - pip
 
 about:
-  home: https://github.com/wheeler-microfluidics/arduino-memory
+  home: https://github.com/sci-bots/arduino-memory
   license: MIT
