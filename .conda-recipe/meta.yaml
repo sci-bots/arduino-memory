@@ -8,9 +8,6 @@
 source:
   git_url: ../
 
-build:
-  noarch: generic
-
 package:
   name: arduino-memory
   version: {{ GIT_VERSION }}
