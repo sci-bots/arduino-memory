@@ -18,7 +18,7 @@ package:
 requirements:
   build:
     - python
-    - platformio-helpers >=0.7
+    - platformio-helpers >=0.8
 
 build:
   noarch: generic
