@@ -1,3 +1,3 @@
-mkdir -p "${PREFIX}"/include/Arduino
-cp -ra "${SRC_DIR}"/include/Arduino/Memory "${PREFIX}"/include/Arduino/Memory
+mkdir -p "${PREFIX}"
+cp -ra "${SRC_DIR}" "${PREFIX}"
 rc=$?; if [[ $rc != 0  ]]; then exit $rc; fi
